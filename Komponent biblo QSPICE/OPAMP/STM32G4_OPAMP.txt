@@ -1,0 +1,51 @@
+*//////////////////////////////////////////////////////////////////////
+* Behavioral Model for STM32G4 Internal Operational Amplifier
+* Inspired by LM358 format, adapted for STM32G4 specifications
+*//////////////////////////////////////////////////////////////////////
+* Features:
+* - Rail-to-rail input and output
+* - Calibrated input offset voltage ~1.5 mV
+* - Gain Bandwidth Product ~13 MHz
+* - Slew Rate: 6.5 V/us (normal), up to 45 V/us (high-speed)
+* - Single op-amp model
+*
+* Pinout:
+* 0 = Non-inverting input (IN+)
+* 1 = Inverting input (IN-)
+* 2 = Positive supply (V+)
+* 3 = Negative supply (V-)
+* 4 = Output
+*
+.SUBCKT STM32G4_OPAMP 0 1 2 3 4
+
+* Input stage
+RINP 0 10 1MEG
+RINN 1 11 1MEG
+VINOFF 10 11 DC 1.5m
+EIN 12 3 10 11 1
+CIN 10 3 1p
+CINN 11 3 1p
+
+* Gain stage
+EG 13 3 12 3 1
+RGAIN 13 14 10K
+CG 13 14 1.2p
+
+* Compensation for GBW ~13 MHz
+CCOMP 14 3 1.2p
+
+* Slew rate control
+
+* Output stage
+GOUT 4 3 14 3 10m
+ROUT 4 3 100
+* Replacing EOUT with buffered output stage
+ROUT 4 3 100
+COUT 4 3 1p
+
+* Rail-to-rail output clamps
+
+* Models
+
+R14OUT 14 4 100
+.ENDS STM32G4_OPAMP

@@ -1,0 +1,20 @@
+ÿØÿÛ«symbol LM393
+  «type: X»
+  «description: Machine generated symbol for LM2903B»
+  «library file: |.SUBCKT LM2903B IN+ IN- Vcc GND OUT\nX_U4 N21103 N858868 Prop_Delay\nX_U2 IN-BUFF IN+BUFF N21168 V+_BUFFER V-_BUFFER INPUTRANGE\nX_U5 N21237 GND N21168 0 V+_BUFFER V-_BUFFER VCC N858872 OUT Output_Stage\nX_U6 GND V+_BUFFER V-_BUFFER VCC Supply_Buffer\nX_U3 N785573 IN-BUFF N21103 V+_BUFFER V-_BUFFER N852568 HPA_COMPHYS\nI_IS N843683 GND DC 550u\nX_U7 N21237 0 V+_BUFFER V-_BUFFER Supply_Enable\nX_U1 IN+ IN+BUFF IN- IN-BUFF Input_Buffer\nI_IBP IN+ GND DC -3.5n\nI_IBN IN- GND DC -3.5n\nV_VOS N785573 IN+BUFF 0.37m\nR_RIS N843683 VCC 1u TC=0,0\nC_CINPL GND IN+ 0.5p TC=0,0\nC_CINNL GND IN- 0.5p TC=0,0\nC_CINPH IN+ VCC 0.5p TC=0,0\nC_CINNH IN- VCC 0.5p TC=0,0\nV_VHYST N852568 0 0\nE_E1 N858872 V-_BUFFER N858868 V-_BUFFER 2\n.ENDS»
+  «shorted pins: false»
+  «line (0,400) (0,230) 0 0 0x1000000 -1 -1»
+  «line (0,-400) (0,-230) 0 0 0x1000000 -1 -1»
+  «triangle (-300,400) (-300,-400) (400,0) 0 0 0x1000000 0x2000000 -1 -1»
+  «text (-200,230) 0.708231 15 1 0x1000000 -1 -1 "+"»
+  «text (-200,-230) 1.04412 0 1 0x1000000 -1 -1 "-"»
+  «text (0,150) 0.51515 15 1 0x1000000 -1 -1 "VCC"»
+  «text (0,-150) 0.51005 15 1 0x1000000 -1 -1 "VSS"»
+  «text (-250,550) 1 15 0 0x1000000 -1 -1 "X1"»
+  «text (0,0) 0.5 15 0 0x1000000 -1 -1 "LM2903B"»
+  «pin (-300,200) (20,0) 1 15 0 0x0 -1 "IN+"»
+  «pin (-300,-200) (20,0) 1 15 0 0x0 -1 "IN-"»
+  «pin (0,400) (20,0) 1 15 0 0x0 -1 "Vcc"»
+  «pin (0,-400) (-20,0) 1 15 0 0x0 -1 "GND"»
+  «pin (400,0) (-20,0) 1 15 0 0x0 -1 "OUT"»
+»
