@@ -1,0 +1,15 @@
+ÿØÿÛ«symbol STM32G4_OPAMP
+  «type: X»
+  «library file: C:\Users\mhm\OneDrive - ICEpower\Documents\QSPICE\STM32G4_OPAMP.txt»
+  «shorted pins: false»
+  «line (300,400) (300,230) 0 0 0x1000000 -1 -1»
+  «line (300,-400) (300,-230) 0 0 0x1000000 -1 -1»
+  «triangle (0,400) (0,-400) (700,0) 0 0 0x1000000 0x2000000 -1 -1»
+  «text (100,700) 1 0 0 0x0 -1 -1 "X"»
+  «text (700,550) 1 0 0 0x0 -1 -1 "STM32G4_OPAMP"»
+  «pin (0,-300) (180,240) 1 13 0 0x0 -1 "IN+"»
+  «pin (0,300) (150,-10) 1 13 0 0x0 -1 "IN-"»
+  «pin (700,0) (40,130) 0.5 15 0 0x0 -1 "OUT"»
+  «pin (300,400) (120,0) 1 13 0 0x0 -1 "V+"»
+  «pin (300,-400) (100,200) 1 13 0 0x0 -1 "V-"»
+»

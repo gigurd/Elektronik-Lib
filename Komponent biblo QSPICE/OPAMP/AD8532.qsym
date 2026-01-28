@@ -1,0 +1,20 @@
+ÿØÿÛ«symbol AD8532
+  «type: X»
+  «description: Machine generated symbol for AD8532_5»
+  «library file: |.SUBCKT AD8532 1 2 99 50 40\nm1 3 2 6 50 nix l=6u w=25u\nm2 4 7 6 50 nix l=6u w=25u\nm3 8 2 5 5 pix l=6u w=25u\nm4 9 7 5 5 pix l=6u w=25u\neos 7 1 poly(1) 25 98 5e-3 0.451\niin1 1 98 5p\niin2 2 98 5p\nios 2 1 0.5p\ni1 99 5 50u\ni2 6 50 50u\nr1 99 3 4.833k\nr2 99 4 4.833k\nr3 8 50 4.833k\nr4 9 50 4.833k\nd3 5 99 dx\nd4 50 6 dx\neref 98 0 poly(2) 99 0 50 0 0 0.5 0.5\ng1 98 21 poly(2) 4 3 9 8 0 145u 145u\nrg 21 98 18.078e6\ncc 21 40 14p\nd1 21 22 dx\nd2 23 21 dx\nv1 99 22 1.37\nv2 23 50 1.37\necm 24 98 poly(2) 1 98 2 98 0 0.5 0.5\nr5 24 25 1e6\nr6 25 98 10k\nc1 24 25 0.75p\nisy 99 50 450.4u\ngsy 99 50 poly(1) 99 50 -3.334e-4 6.667e-5\nep 99 39 poly(1) 98 21 0.78925 1\nen 38 50 poly(1) 21 98 0.78925 1\nm15 40 39 99 99 pox l=1.5u w=1500u\nm16 40 38 50 50 nox l=1.5u w=1500u\nc15 40 39 50p\nc16 40 38 50p\n.model dx d(rs=1 cjo=0.1p)\n.model nix nmos(vto=0.75 kp=205.5u rd=1 rs=1 rg=1 rb=1 cgso=4e-9 cgdo=4e-9 cgbo=16.667e-9 cbs=2.34e-13 cbd=2.34e-13)\n.model nox nmos(vto=0.75 kp=195u rd=.5 rs=.5 rg=1 rb=1 cgso=66.667e-12 cgdo=66.667e-12 cgbo=125e-9 cbs=2.34e-13 cbd=2.34e-13)\n.model pix pmos(vto=-0.75 kp=205.5u rd=1 rs=1 rg=1 rb=1 cgso=4e-9 cgdo=4e-9 cgbo=16.667e-9 cbs=2.34e-13 cbd=2.34e-13)\n.model pox pmos(vto=-0.75 kp=195u rd=.5 rs=.5 rg=1 rb=1 cgso=66.667e-12 cgdo=66.667e-12 cgbo=125e-9 cbs=2.34e-13 cbd=2.34e-13)\n.ends»
+  «shorted pins: false»
+  «line (300,0) (300,-170) 0 0 0x1000000 -1 -1»
+  «line (300,-800) (300,-630) 0 0 0x1000000 -1 -1»
+  «triangle (0,0) (0,-800) (700,-400) 0 0 0x1000000 0x2000000 -1 -1»
+  «text (60,-940) 1 15 0 0x1000000 -1 -1 "X1"»
+  «text (250,-1100) 1 15 0 0x1000000 -1 -1 "AD8532"»
+  «text (100,-600) 1 15 1 0x1000000 -1 -1 "-"»
+  «text (80,-190) 1 0 1 0x1000000 -1 -1 "+"»
+  «text (300,-270) 0.5 15 1 0x1000000 -1 -1 "VCC"»
+  «text (300,-530) 0.5 0 1 0x1000000 -1 -1 "VSS"»
+  «pin (0,-200) (20,0) 1 15 0 0x0 -1 "1"»
+  «pin (700,-400) (20,0) 1 15 0 0x0 -1 "40"»
+  «pin (0,-600) (20,0) 1 15 0 0x0 -1 "2"»
+  «pin (300,0) (-20,0) 1 15 0 0x0 -1 "99"»
+  «pin (300,-800) (-20,0) 1 15 0 0x0 -1 "50"»
+»
