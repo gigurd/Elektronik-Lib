@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a371b7aa-2cb7-44b0-b16f-0e7046382457")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "D-"
+		(shape bidirectional)
+		(at 35.56 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33725dd9-6306-4a60-8985-cecb8e9eb933")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c7ad01e-08ee-4db3-b58e-3151ea1b0465")
+	)
+	(hierarchical_label "PWM{R[1..6] G[1..6] B[1..6]}"
+		(shape output)
+		(at 245.11 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a72a668-fdf4-4a8c-92c3-c3c90e9ad54e")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 25.4 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2957d61-e9f2-412a-96f7-8d0359a0245f")
+	)
+	(hierarchical_label "SPI1{MISO MOSI CLK CS}"
+		(shape bidirectional)
+		(at 245.11 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7ecee90-ac7d-4edd-a4b0-7397bfdc5734")
+	)
+	(hierarchical_label "RENC{BUTT A B}"
+		(shape input)
+		(at 33.02 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2b2e06b-c4d3-4bf0-85a5-5301144e9952")
+	)
+	(hierarchical_label "D+"
+		(shape bidirectional)
+		(at 35.56 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6063576-a14f-4701-ac4e-21dc80b114b8")
+	)
+	(hierarchical_label "BUTT[1..6]"
+		(shape input)
+		(at 33.02 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb38dad5-6064-409a-bacf-41276347cb6d")
+	)
+)

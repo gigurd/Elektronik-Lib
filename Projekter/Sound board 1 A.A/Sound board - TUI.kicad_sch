@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ff77da89-3322-4536-9bf1-bc0c22cc4de0")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 24.13 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b24cd9a-92d3-4620-860c-dbcf6c3bdd85")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 24.13 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10f2c79a-0db7-4efa-a8ba-a1e9c4707ad0")
+	)
+	(hierarchical_label "PWM{R[1..6] G[1..6] B[1..6]}"
+		(shape input)
+		(at 52.07 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f545192-869a-45ec-a5fe-39d903ec3097")
+	)
+	(hierarchical_label "BUTT[1..6]"
+		(shape output)
+		(at 260.35 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a9c9837-d6ba-4d35-99bb-9018775c6919")
+	)
+)

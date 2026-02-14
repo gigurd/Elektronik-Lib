@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a07dd0da-b60d-4286-81d3-c894950c057b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "SPI1{MISO MOSI CLK CS}"
+		(shape bidirectional)
+		(at 48.26 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07b2414e-3b48-411e-82f6-9604aaa024b3")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 21.59 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27615aeb-f6cc-4b64-8e1f-ef9923fc5610")
+	)
+	(hierarchical_label "RENC{BUTT A B}"
+		(shape output)
+		(at 262.89 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a96a13b4-ae69-420b-b6dd-46866a4f9253")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 21.59 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9203fa3-da2c-435c-bd3a-ff5d2325d946")
+	)
+)

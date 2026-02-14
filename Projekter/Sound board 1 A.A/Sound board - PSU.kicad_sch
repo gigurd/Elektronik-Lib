@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3f7f5eb0-dbb4-4e17-b7f0-6cdc4923ab6a")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 26.67 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cd18a1a-90a1-4597-829b-0d0e824cd132")
+	)
+	(hierarchical_label "VDD"
+		(shape output)
+		(at 267.97 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f15b0c7-0b9a-4d0c-94a5-41a8e05d69e8")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 27.94 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fe822cf-764c-4b82-b99c-1e732306c52e")
+	)
+)
